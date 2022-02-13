@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo -v
+
 # Hide "last login" line when starting a new terminal session
 touch $HOME/.hushlogin
 
@@ -127,13 +129,13 @@ echo 'Install redis'
 echo '-------------'
 pecl install redis
 
-echo 'Install laravel envoy'
-echo '---------------------'
-composer global require "laravel/envoy=~2.0"
+# echo 'Install laravel envoy'
+# echo '---------------------'
+# composer global require "laravel/envoy=~2.0"
 
-echo 'Install phpunit-watcher'
-echo '-----------------------'
-composer global require spatie/phpunit-watcher
+# echo 'Install phpunit-watcher'
+# echo '-----------------------'
+# composer global require spatie/phpunit-watcher
 
 echo 'Install laravel valet'
 echo '---------------------'
@@ -149,9 +151,9 @@ echo 'Install yarn'
 echo '------------'
 brew install yarn
 
-echo 'Install ghostscript'
-echo '-------------------'
-brew install ghostscript
+# echo 'Install ghostscript'
+# echo '-------------------'
+# brew install ghostscript
 
 echo 'Install mackup'
 echo '--------------'
