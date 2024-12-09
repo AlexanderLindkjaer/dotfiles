@@ -119,3 +119,7 @@ export PATH=$PATH:$ANDROID_HOME/tools/bin
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+# Created by `pipx` on 2024-07-12 12:34:42
+export PATH="$PATH:/Users/alexanderlindkjaer/.local/bin"
+export NODE_OPTIONS=--max_old_space_size=4096
