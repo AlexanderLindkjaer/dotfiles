@@ -100,3 +100,7 @@ export SDKMAN_DIR="$HOME/.sdkman"
 # Created by `pipx` on 2024-07-12 12:34:42
 export PATH="$PATH:/Users/alexanderlindkjaer/.local/bin"
 export NODE_OPTIONS=--max_old_space_size=4096
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

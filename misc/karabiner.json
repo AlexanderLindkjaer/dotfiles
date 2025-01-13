@@ -1,0 +1,65 @@
+{
+    "description": "f20-22",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "f20",
+                "modifiers": {
+                    "optional": [
+                        "left_shift"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "quote",
+                    "modifiers": [
+                        "left_alt"
+                    ],
+                    "repeat": true
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "f21",
+                "modifiers": {
+                    "optional": [
+                        "left_shift"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "o",
+                    "modifiers": [
+                        "left_alt"
+                    ],
+                    "repeat": true
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "f22",
+                "modifiers": {
+                    "optional": [
+                        "left_shift"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "a",
+                    "modifiers": [
+                        "left_alt"
+                    ],
+                    "repeat": true
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
